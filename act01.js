@@ -4,7 +4,7 @@ function maleorfemale(firstName, lastName, gender) {
   
     salutation = salutation.toUpperCase();
   
-    const message = `${salutation} ${firstName} ${lastName}`;
+    const message = ` Greetings! ${salutation} ${firstName} ${lastName}`;
   
     console.log(message);
   }
