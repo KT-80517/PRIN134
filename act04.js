@@ -3,7 +3,7 @@ function hashText(inputString) {
     let changedChars = [];
 
     for (let i = 0; i < inputString.length; i++) {
-        if (i % 2 === 0) {
+        if (i % 1 === 0) {
             hashedString += '*';
             changedChars.push(inputString[i]);
         } else {
