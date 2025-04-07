@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f8f8f8;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+  text-align: center;
+}
+ul, ol {
+  padding-left: 20px;
+}
+ol li {
+  cursor: pointer;
+}
+.bordered {
+  border: 3px dotted orange;
+}
+.title-color {
+  color: teal;
+}
+.text-underline {
+  text-decoration: underline;
+}
+.text-overline {
+  text-decoration: overline;
+}
+.is-done {
+  text-decoration: line-through;
+}
+.active {
+  font-weight: bold;
+}
+.highlight {
+  background-color: yellow;
+}
